@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f8e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+h2 {
+  margin-bottom: 15px;
+}
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+.farmer { background: #388e3c; }
+.customer { background: #1976d2; }
+.logout { background: #777; }
+.input-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+.input-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #ccc;
+}
+.input-box button {
+  padding: 8px 15px;
+  border: none;
+  background: #388e3c;
+  color: white;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}

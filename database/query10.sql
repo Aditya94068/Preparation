@@ -1,0 +1,1 @@
+SELECT SUM(claim) FROM campusx.insurance_data;

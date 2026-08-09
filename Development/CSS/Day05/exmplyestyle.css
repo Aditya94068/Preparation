@@ -1,0 +1,102 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size:30px;
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.Box{
+    background-color: rgb(90, 90, 219);
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding: 40px;
+}
+.SideBar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Content2{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Content3{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Footer{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    grid-column:1/4;
+} */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-rows: 1fr 1f 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+.box{
+    background-color:rgb(90, 90, 219) ;
+}
+.First{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.Second{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.Sixth{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 4/5;
+}

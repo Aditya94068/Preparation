@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1 Template Basic</title>
+</head>
+<body>
+    <h1>Template Basic</h1>
+    <p>This is a simple template to demonstrate basic HTML structure</p>
+    <p>Welcome to the blog home page !</p>
+    {% comment %} Single Variable {% endcomment %}
+    <p>Name:{{name}}</p>
+    <p>Age:{{age}}</p>
+    {% comment %} list access {% endcomment %}
+    <p>Skill : {{skill.0}}</p>
+    <p>Skills : {{skill}}</p>
+    {% comment %} obj Attribute {% endcomment %}
+    <p>User Name : {{user.name}}</p>
+    <p>User age : {{user.age}}</p>
+    {% comment %} Accessing Dictionary {% endcomment %}
+    <h1>Blog infromation</h1>
+    <p>Title : {{blog.title}}</p>
+    <p>Created_at{{blog.created_at}}</p>
+    <p>Content :{{blog.content}}</p>
+    <p>Content :{{blog.content | safe}}</p>
+    {% comment %} Default Value   {% endcomment %}
+    <p>Default Empty Value : {{empty_value|default:"No value provided"}}</p>
+    <p>Default Empty Value : {{empty_value|default_if_none:"No data"}}</p>
+    {% comment %} accessing nested Dictionary {% endcomment %}
+    <p>Author: {{blog.author.name}}</p>
+</body>
+</html> 

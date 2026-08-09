@@ -1,0 +1,54 @@
+#include<iostream>
+#include<vector>
+#include<set>
+using namespace std;
+vector<int>FindCommonElement(int A[],int B[],int C[],int n1,int n2,int n3){
+    vector<int>ans;
+    set<int>st;
+    int i ,j,k;
+    i = j = k = 0;
+    while(i<n1 &&  j<n2 && k<n3){
+        if(A[i] == B[j] && B[j] == C[k])
+        {
+            st.insert(A[i]);
+            i++;
+            j++;
+            k++;
+        }
+        else if(A[i]<B[j])
+        {
+            i++;
+        }
+        else if(B[j]<C[k])
+        {
+            j++;
+        }
+        else{
+            k++;
+        }
+    }
+    for(auto it : st){
+        ans.push_back(it);
+    }
+    return ans;
+}
+int main(){
+    // int A[] ={1,5,10,20,40,80};
+    // int B[] ={6,7,20,80,100};
+    // int C[] ={3,4,15,20,30,70,80,120};
+    int A[] ={3,3,3,3};
+    int B[] ={3,3,3,3};
+    int C[] ={3,3,3,3};
+
+    
+    int n1 = sizeof(A)/sizeof(int);
+    int n2 = sizeof(B)/sizeof(int);
+    int n3 = sizeof(C)/sizeof(int);
+
+    vector<int>ans = FindCommonElement(A,B,C,n1,n2,n3);
+    for(int val : ans){
+        cout<<val<<" ";
+    }
+   
+    return 0;
+}

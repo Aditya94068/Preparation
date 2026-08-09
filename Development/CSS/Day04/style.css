@@ -1,0 +1,61 @@
+.container{
+    background-color:white;
+    display: flex;
+    flex-direction: row ;
+    height: 500px;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: start; */
+    align-items: center;
+    /* align-items: end; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+
+}
+/* 1. justify-content : main axis ke around kaam karta hai
+2.main axis decide kon karega flex , flex ka direction 
+3. align-item : work karta hai cross axis ke around
+4. flex wrap : website ko responsive bnata hai jo bhi content extra hai usse next line main align kar dega
+5. gap : iska kaam hota hai her ek box ke bich main gap dena 
+*/
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.first{
+    background-color: red;
+    /* flex-basis: 200px; */
+    /* flex-basis: 200px; ->1. ya width ko overrider ke deta hai aur ye main axis ke around kaam karta hai 
+                            2. coloumn wise ye height ko increase kar dega 
+                            3. row wise ye width ko increase kar dega  */
+    /* flex-grow: 1;  flex grow ka kaam hota hai remaining space ko consume karna mtlb use karna */
+}
+.second{
+    background-color: yellow;
+    
+    /* flex-shrink: 4;
+    flex-basis: 300px; */
+    /* flex-basis: 200px; -> ya width ko overrider ke deta hai aur ye main axis ke around kaam karta hai  */
+    /* flex-grow: 2;   flex grow ka kaam hota hai remaining space ko consume karna mtlb use karna */
+}
+.third{
+    background-color: green;
+    /* align-self: flex-start ; -> iska kaam hota hai particular box ki particular jagh per align karna */
+}
+.fourth{
+    background-color: chartreuse;
+}
+
+/*
+Summary:-
+Mainaxis Cross Axis 
+Container : flex , flexdirection, justify,align,flexwrap
+child(flexitem):grow,shrink,basis,alignself
+
+flexbox frogy webisite pe jake practice kar sakte hai
+
+*/

@@ -1,0 +1,37 @@
+{%extends "base.html"%}
+
+{%block title%} Blog page {%endblock%}
+{% load static %}
+{% block corecss %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+{% endblock %}
+{%block content%}
+    <h1>Blog Us</h1>
+    {% regroup students by class as grouped_student %}
+    <ul>
+        {% for group in grouped_student %}
+        <li> Class {{group.grouper}}
+            <ul>
+                {% for student in group.list %}
+                <li>{{student.name}}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    <p>
+        {% comment %} {% widthratio this_value max_value max_width as width%} {% endcomment %}
+        Progress :{% widthratio 50 100 30 %} %
+    </p>
+    {% comment %} {% spaceless %} {% endspaceless %} {% endcomment %}
+    {% spaceless %}
+    <span>hello</span>
+    <span>hello</span>
+    {% endspaceless %}
+    {% filter upper %}
+        <p>this text is converted into upper case</p>
+    {% endfilter %}
+    {% for student in students %}
+    <p>{{student.name|lower}} is in the class {{student.class | add:"1"}}</p>
+    {% endfor %}
+{%endblock%}

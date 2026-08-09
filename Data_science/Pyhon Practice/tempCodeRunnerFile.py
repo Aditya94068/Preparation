@@ -1,0 +1,5 @@
+a2)
+# print(a2[1][2])
+# print(a2[1,2])
+# print(a3)
+# print(a3[1][1][1])

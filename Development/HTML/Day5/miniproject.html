@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+
+<body>
+
+    <h1>University Registration Form</h1>
+    <p>Please Fill the form :</p>
+    <hr>
+    <form>
+        <h2>Personal Details</h2>
+        <label for="fname">First Name :</label>
+        <input type="text" name="Fname" id="fname" placeholder="e.g.,Aditya">
+        <br><br>
+        <label for="lname">Last Name :</label>
+        <input type="text" name="lname" id="lname" placeholder="e.g.,Vaishnav">
+        <br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB">
+        <br>
+        <p>Gender :</p>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id=male value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="female" id=female value="female">
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" name="Other" id=other value="other">
+        <p>Upload Your File</p>
+        <input type="file" name="file">
+        <hr>
+        <h2>Contact Information</h2>
+        <label for="email">Email Address : </label>
+        <input type="email" name="email" id=email placeholder="e.g.,Example@gmail.com">
+        <br><br>
+        <label for="phone number ">Phone Number :</label>
+        <input type="tel" name="phone number" id="phone number" placeholder="94068*****">
+        <br><br>
+        <label for="Mail">Mail Address :</label>
+        <br>
+        <textarea name="Mail" id="Mail" rows="5" cols="30"
+            placeholder="Street Address ,City,State , ZIPcode"></textarea>
+        <hr>
+        <h2>Academic Information</h2>
+        <label>Select Your Course :</label>
+        <select name="course" id="course">
+            <option value="--Choose a Course--">--Choose a Course--</option>
+            <option value="CSE">CSE</option>
+            <option value="CE">CE</option>
+            <option value="ME">ME</option>
+        </select>
+
+        <br><br>
+        <p>ExtraCurricular Activity</p>
+        <input type="checkbox" name="interest" id="sports" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+        <input type="checkbox" name="interest" id="Music and Arts" value="Music and Arts">
+        <label for="Music and Arts">Music and Arts</label>
+        <br>
+        <input type="checkbox" name="interest" id="Technology Club" value="Technology Club">
+        <label for="Technology Club">Technology Club</label>
+        <br>
+        <input type="checkbox" name="interest" id="Volunteering" value="Volunteering">
+        <label for="Volunteering">Volunteering</label>
+        <hr>
+        <h2>Create Your Account</h2>
+        <label for="Create password">Create Password :</label>
+        <input type="password" name="password" id="Create password">
+        <br><br>
+        <label for="Security Question">Security Question</label>
+        <select name="Security" id="Security Question">
+            <option value="What is Your First Pet name">What is Your First Pet name?</option>
+            <option value="what is your first School name">what is your first School name</option>
+            <option value="which game do you like">which game do you like?</option>
+            <option value="What is the name of your favrouite toy">What is the name of your favrouite toy</option>
+            <option value="Who is your favrouite Crickter">Who is your favrouite Crickter</option>
+        </select>
+        <br><br>
+        <label for="Security Answer">Security Answer</label>
+        <input type="text" name="Security Answer" id="Security Answer">
+        <br>
+        <br>
+        <input type="checkbox" name="terms and Condition">
+        <label for="terms and Condition">I Agree to that terms and Conditions</label>
+        <hr>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </form>
+</body>
+
+</html>

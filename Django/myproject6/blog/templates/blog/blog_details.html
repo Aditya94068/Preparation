@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#2 Templates</title>
+</head>
+<body>
+    <h1>Blog filter Page</h1>
+    {% comment %} Text filter {% endcomment %}
+    <p><b>Title(Normal):</b>{{ post.title }}</p>
+    <p><b>UpperCase :</b>{{ post.title|upper}}</p>
+    <p><b>LowerCase :</b>{{ post.title|lower}}</p>
+    <p><b>Capital:</b>{{ post.title|capfirst}}</p>
+    <p><b>TitleCase:</b>{{ post.title|title}}</p>
+    <p><b>TruncateChar:</b>{{ post.title|truncatechars:20}}</p>
+    <p><b>TruncateWord:</b>{{ post.title|truncatewords:2}}</p>
+    <p><b>LineBreak:</b>{{ post.title|linebreaks}}</p>
+    <hr>
+    {% comment %} Add {% endcomment %}
+    <p><b>Original Price</b>{{post.price}}</p>
+    <p><b>Original Price(+5)</b>{{post.price | add:5}}</p>
+    {% comment %} division {% endcomment %}
+    {% if post.number|divisibleby:2 %}
+    <p>{{post.number}} is even</p>
+    {%else%}
+    <p>{{post.number}} is odd</p>
+    {% endif %}
+
+    {% comment %} List filter {% endcomment %}
+    <p><b>first tag :</b>{{post.tags}}</p>
+    <p><b>first element:</b>{{post.tags|first}}</p>
+    <p><b>last element:</b>{{post.tags|last}}</p>
+    <p><b>slicing element:</b>{{post.tags|slice:"1:3"}}</p>
+    <p><b>join element:</b>{{post.tags|join:' '}}</p>
+    <hr>
+
+    <p>Author Available?:{{post.author | yesno:"Yes,No,MayBe"}}</p>
+    <p>Comments Counts?:{{post.comments_count}} Comment{{post.comments_count|pluralize}}</p>
+    <hr>
+
+    {% comment %} date filter {% endcomment %}
+    <p><b>Created At:</b>{{post.created_at}}</p>
+    <p><b>Formated Date :</b>{{post.created_at | date:"D d M Y"}}</p>
+    <p><b>Time Only :</b>{{post.created_at|time:"H:i"}}</p>
+    {% comment %} time filter :- timesince timeuntil {% endcomment %}
+
+    {% comment %} Encoding and Formatting {% endcomment %}
+    <p><b>Title Encode : </b>{{post.title | urlencode}}</p>
+    <p><b>Float Format Example : </b>{{124.244253464 | floatformat:4}}</p>
+    
+</body>
+</html>

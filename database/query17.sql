@@ -1,0 +1,1 @@
+SELECT * FROM campusx.insurance_data;

@@ -1,0 +1,35 @@
+#container{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#firstT{
+    background-color: blue;
+    height: 80px;
+    width: 85px;
+    position:absolute;
+}
+#secondT{
+    background-color: blue;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    left: 120px;
+}
+#thirdT{
+    background-color: blue;
+    height: 80px;
+    width: 85px;
+    position: absolute;
+    top: 120px
+    
+}
+#fourthT{
+    background-color: blue;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}

@@ -1,0 +1,4 @@
+data ={
+{"ID" : 1 , "name : "Aditya","Address":"Khandwa","PinCode":450001},
+{"ID" : 2 , "name : "Sumit","Address":"Nashik","PinCode":4582001},
+}
