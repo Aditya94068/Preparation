@@ -1,0 +1,26 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+} 
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+.one{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
