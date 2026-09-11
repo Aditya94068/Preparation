@@ -1,0 +1,51 @@
+[
+    {
+        "roll_no": 101,
+        "name": "Aditya Vaishnav",
+        "age": 21,
+        "college": "SOCSE",
+        "cgpa": 9.8
+    },
+    {
+        "roll_no": 102,
+        "name": "Sumit Vaishnav",
+        "age": 23,
+        "college": "Shri Vaishnav Vidhyapeeth Vishwavidhyal",
+        "cgpa": 9.0
+    },
+    {
+        "roll_no": 103,
+        "name": "Raghav",
+        "age": 22,
+        "college": "SITRC",
+        "cgpa": 8.5
+    },
+    {
+        "roll_no": 104,
+        "name": "Atharv",
+        "age": 22,
+        "college": "DAVV",
+        "cgpa": 7.3
+    },
+    {
+        "roll_no": 105,
+        "name": "Rohan",
+        "age": 20,
+        "college": "KGPA",
+        "cgpa": 8.0
+    },
+    {
+        "roll_no": 106,
+        "name": "Sohan",
+        "age": 22,
+        "college": "Delhi University",
+        "cgpa": 7.7
+    },
+    {
+        "roll_no": 107,
+        "name": "Aditya",
+        "age": 25,
+        "college": "SOCSE",
+        "cgpa": 8.55
+    }
+]
