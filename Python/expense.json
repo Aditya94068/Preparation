@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "amount": 5000,
+        "category": "Food",
+        "description": "breakfast",
+        "dd_mm_yyyy": "06-11-2024"
+    },
+    {
+        "id": 2,
+        "amount": 31000,
+        "category": "electronics",
+        "description": "fridge",
+        "dd_mm_yyyy": "12-05-2005"
+    },
+    {
+        "id": 3,
+        "amount": 250000,
+        "category": "car",
+        "description": "nixon",
+        "dd_mm_yyyy": "02-05-2026"
+    },
+    {
+        "id": 4,
+        "amount": 25000,
+        "category": "fertilizers",
+        "description": "Alovara",
+        "dd_mm_yyyy": "21-11-2026"
+    },
+    {
+        "id": 5,
+        "amount": 12000,
+        "category": "Food",
+        "description": "paneer",
+        "dd_mm_yyyy": "08-03-2025"
+    },
+    {
+        "id": 6,
+        "amount": 12000,
+        "category": "electronics",
+        "description": "phone",
+        "dd_mm_yyyy": "10-05-2026"
+    },
+    {
+        "id": 7,
+        "amount": 4000,
+        "category": "Food",
+        "description": "breakfast",
+        "dd_mm_yyyy": "06-04-2024"
+    },
+    {
+        "id": 8,
+        "amount": 320,
+        "category": "electronis",
+        "description": "pendrive",
+        "dd_mm_yyyy": "05-04-2024"
+    },
+    {
+        "id": 9,
+        "amount": 299,
+        "category": "crops",
+        "description": "wheat",
+        "dd_mm_yyyy": "09-11-2026"
+    },
+    {
+        "id": 10,
+        "amount": 3000,
+        "category": "electronics",
+        "description": "headphones",
+        "dd_mm_yyyy": "12-09-2026"
+    },
+    {
+        "id": 11,
+        "amount": 399,
+        "category": "Namkeen",
+        "description": "Ratlami Sev",
+        "dd_mm_yyyy": "01-02-2026"
+    },
+    {
+        "id": 12,
+        "amount": 1000,
+        "category": "Food",
+        "description": "Burger",
+        "dd_mm_yyyy": "28-02-2026"
+    },
+    {
+        "id": 13,
+        "amount": 2400,
+        "category": "Food",
+        "description": "fries",
+        "dd_mm_yyyy": "01-11-2027"
+    }
+]
