@@ -61,13 +61,13 @@
 //METHOD 3:
 //arrow function
 
-const addNumber = (num1,num2) =>{
-    console.log("Hello");
-    return num1 + num2;
-}
+// const addNumber = (num1,num2) =>{
+//     console.log("Hello");
+//     return num1 + num2;
+// }
 
 // addNumber();
-console.log(addNumber(3,4));
+// console.log(addNumber(3,4));
 // const addNumber = (num1,num2) =>num1 + num2;
 // console.log(addNumber(3,4));
 
@@ -77,9 +77,9 @@ console.log(addNumber(3,4));
 
 //find the square of the number using arrow function
 // const square = (num) => num*num;
-// console.log(square(5));
+// console.log(square(5,6));
 
-// if we have a single paramete, no need of this bracket ()
+// if we have a single parameter, no need of this bracket ()
 // const square = num => num*num;
 // console.log(square(5));
 

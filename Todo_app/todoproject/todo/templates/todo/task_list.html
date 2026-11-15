@@ -15,8 +15,17 @@
         <td>
           <form method="post" action="{% url 'todo:task_toggle' task.pk %}" style="display:inline;">
             {% csrf_token %}
-            <button type="submit" class="btn btn-sm {% if task.completed %}btn-success{% else %}btn-outline-secondary{% endif %}">
-              {% if task.completed %}✔{% else %}Mark{% endif %}
+            <button type="submit" class="btn btn-lg 
+            {% if task.completed %}
+            btn-success
+            {% else %}
+            btn-outline-secondary
+            {% endif %}">
+            {% if task.completed %}
+             ✔
+            {% else %}
+            Mark
+            {% endif %}
             </button>
           </form>
         </td>

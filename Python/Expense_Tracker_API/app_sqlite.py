@@ -215,6 +215,8 @@ def filter_by_category():
         )
     return jsonify({"message" : "Task Filter successfully",
                     "tasks" : result}),200
+
+
 @app.route("/api/tasks/search",methods=["GET"])
 def searching():
     connection = get_db_connection()

@@ -135,13 +135,13 @@
 // console.log(s());
 
 // let sum = function add(x , y){
-    // console.log(x + y);
+//     console.log(x + y);
 //     return x + y;
 // }
-// // add(4 , 5);
+//  add(4 , 5);
 // console.log(sum(4,5));
 
-// let sum = function add(a , b){
+// sum = function add(a , b){
 //     return a + b;
 // }
 // console.log(sum(4,5));
@@ -177,3 +177,13 @@
 // obj2 = obj
 // obj2.name='vaishnav';
 // console.log(obj);
+
+
+
+let obj = {
+    1 : "aditya",
+    2 : "Sumit"
+}
+console.log(obj)
+obj[1] = "Aditya Vaishnav"
+console.log(obj)

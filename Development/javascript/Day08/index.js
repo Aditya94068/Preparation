@@ -5,13 +5,13 @@
 
 
 //Create Operation
-const user = {
-    name : "Aditya",
-    age : 20,
-    emailId : "Aditya@gamil.com",
-    amount : 340000,
-    "home address" :"khandwa"
-}
+// const user = {
+//     name : "Aditya",
+//     age : 20,
+//     emailId : "Aditya@gamil.com",
+//     amount : 340000,
+//     "home address" :"khandwa"
+// }
 
 //Read Operation
 // console.log(user["home address"]);
@@ -95,8 +95,8 @@ const user = {
 // Hum is technique ko bhot kaam use karte hai toh hum kya karenge iss object ki destructuring kar denge do values ko nikalne ke liye
 
 
-const {name , age,amount} = user;//iss technique ka hum bhot jayada use karenge jab hume object mai destructring karni hogi
-console.log(name,age,amount);
+// const {name , age,amount} = user;//iss technique ka hum bhot jayada use karenge jab hume object mai destructring karni hogi
+// console.log(name,age,amount);
 
 // Array ki destructuring
 // const arr = [10,20,30,40,50,60];
@@ -123,6 +123,7 @@ console.log(name,age,amount);
 // }
 // //calling the function in the user 
 // user.greeting();
+// console.log(user.greeting())
 //return value ko store kar ke print karne ke liye hum kuch iss tarah se karte hai
 
 // const user2 = {

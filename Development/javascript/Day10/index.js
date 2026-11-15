@@ -48,11 +48,11 @@
 // console.log(result);
 
 
-const sum = (a , b) => (a + b);
+// const sum = (a , b) => (a + b);
 
-let a = 4;
-let b = 5;
-console.log(sum(a,b));
+// let a = 4;
+// let b = 5;
+// console.log(sum(a,b));
 
 
 
